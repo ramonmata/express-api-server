@@ -1,0 +1,38 @@
+{
+  "name": "express-api-server",
+  "version": "0.0.1",
+  "description": "Minimal Express/API/Server with included JSON Web Token based authentication",
+  "keywords": [
+    "express",
+    "api",
+    "jwt",
+    "token"
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.1.6",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramonmata/express-api-server.git"
+  },
+  "author": "Ramon Mata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ramonmata/express-api-server/issues"
+  },
+  "homepage": "https://github.com/ramonmata/express-api-server#readme"
+}
+
+
